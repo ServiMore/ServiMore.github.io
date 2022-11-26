@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaccion</title>
+    <link rel="stylesheet" href="pagoFormCss.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- =====BOX ICONS===== -->
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footer {
+            background-color: #24262b;
+            padding: 70px 0;
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 0 15px;
+        }
+
+        .footer-col h4 {
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: capitalize;
+            margin-bottom: 35px;
+            font-weight: 500;
+            position: relative;
+        }
+
+        .footer-col h4::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #e91e63;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+        }
+
+        .footer-col ul li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        .footer-col ul li a {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .footer-col ul li a:hover {
+            color: #ffffff;
+            padding-left: 8px;
+        }
+
+        .footer-col .social-links a {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #ffffff;
+            transition: all 0.5s ease;
+        }
+
+        .footer-col .social-links a:hover {
+            color: #24262b;
+            background-color: #ffffff;
+        }
+
+        /*responsive*/
+        @media(max-width: 767px) {
+            .footer-col {
+                width: 50%;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media(max-width: 574px) {
+            .footer-col {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+
+    
+    <!--========== NAV ==========-->
+    <div class="fadeInDown wrapper">
+        <!--========== NAV ==========-->
+       
+        <h2>Formulario de pago</h2>
+        <form action="" method="post">
+            <!--Account Information Start-->
+            <h4>Cuenta</h4>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Nombre completo" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <div class="input_box">
+                    <input type="text" placeholder="Nombre en tarjeta" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="email" placeholder="Email" required class="name">
+                    <i class="fa fa-envelope icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Direccion" required class="name">
+                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Ciudad" required class="name">
+                    <i class="fa fa-institution icon"></i>
+                </div>
+            </div>
+            <!--Account Information End-->
+
+
+            <!--DOB & Gender Start-->
+            <div class="input_group">
+                <div class="input_box">
+                    <h4>Fecha Nacimiento</h4>
+                    <input type="text" placeholder="DD" required class="dob">
+                    <input type="text" placeholder="MM" required class="dob">
+                    <input type="text" placeholder="YYYY" required class="dob">
+                </div>
+                <div class="input_box">
+                    <h4>Genero</h4>
+                    <input type="radio" name="gender" class="radio" id="b1" checked>
+                    <label for="b1">Hombre</label>
+                    <input type="radio" name="gender" class="radio" id="b2">
+                    <label for="b2">Mujer</label>
+                </div>
+            </div>
+            <!--DOB & Gender End-->
+
+
+            <!--Payment Details Start-->
+            <div class="input_group">
+                <div class="input_box">
+                    <h4>Detalles de pago</h4>
+                    <input type="radio" name="pay" class="radio" id="bc1" checked>
+                    <label for="bc1"><span>
+                            <i class="fa fa-cc-visa"></i>Tarjeta Credito</span></label>
+                    <input type="radio" name="pay" class="radio" id="bc2">
+                    <label for="bc2"><span>
+                            <i class="fa fa-cc-paypal"></i>Paypal</span></label>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="tel" name="" class="name" placeholder="Numero Tarjeta 1111-2222-3333-4444" required>
+                    <i class="fa fa-credit-card icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="tel" name="" class="name" placeholder="Tarjeta CVC 632" required>
+                    <i class="fa fa-user icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <div class="input_box">
+                        <input type="number" placeholder="Mes Exp " required class="name">
+                        <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <input type="number" placeholder="Año Exp " required class="name">
+                    <i class="fa fa-calendar-o icon" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="input_box">
+                <input type="number" placeholder="Introduce la cantidad" required class="name">
+                <i class="fa fa-money icon" aria-hidden="true"></i>
+            </div>
+            <!-- Scrollable modal -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Enviar mensaje
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Ventana de mensaje</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Hola mijhasila, necesito un dibujo de un calamar gigante con brazos metalicos
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Payment Details End-->
+
+            <div class="input_group">
+                <div class="input_box">
+                    <button onclick="window.location='gig.html'">Pagar Ya</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--===== FOOTER =====-->
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
