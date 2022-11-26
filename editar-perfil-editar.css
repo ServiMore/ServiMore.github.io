@@ -1,0 +1,868 @@
+.editar-perfil-editar-container {
+  min-height: 100vh;
+}
+.fadeInDown {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+  from {
+      opacity: 0;
+      -webkit-transform: translate3d(0,-100%,0);
+      transform: translate3d(0,-100%,0);
+  }
+
+  to {
+      opacity: 1;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      -webkit-transform: translate3d(0,100%,0);
+      transform: translate3d(0,100%,0);
+  }
+
+  to {
+      opacity: 1;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+}
+.editar-perfil-editar-editar-perfil-editar {
+  width: 100%;
+  height: 1217px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.editar-perfil-editar-button {
+  top: 1131px;
+  left: 901px;
+  width: 222px;
+  height: 37px;
+  display: flex;
+  padding: 12px 16px;
+  position: absolute;
+  box-shadow: 4px 4px 0px 0px rgba(7, 156, 151, 0.75) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 16px;
+  background-color: var(--dl-color-primarios-mediumaquamarine);
+}
+.editar-perfil-editar-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 16px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-check {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.editar-perfil-editar-line {
+  top: 1072px;
+  left: 49px;
+  width: 1205px;
+  height: 2px;
+  position: absolute;
+}
+.editar-perfil-editar-desc {
+  top: 956px;
+  left: 735px;
+  width: 388px;
+  height: 50px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(183, 179, 185, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: rgba(253, 253, 253, 1);
+}
+.editar-perfil-editar-text02 {
+  color: var(--dl-color-escaladegrises-silvermetallic);
+  height: auto;
+  flex-grow: 1;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 8px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-info {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.editar-perfil-editar-c8 {
+  top: 914px;
+  left: 742px;
+  width: 192px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.editar-perfil-editar-imagen {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-color: transparent;
+  margin-right: 32px;
+}
+.editar-perfil-editar-text04 {
+  color: var(--dl-color-escaladegrises-onyx);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-habilidades {
+  top: 803px;
+  left: 735px;
+  width: 388px;
+  height: 49px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(183, 179, 185, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: rgba(253, 253, 253, 1);
+}
+.editar-perfil-editar-text06 {
+  color: var(--dl-color-escaladegrises-silvermetallic);
+  height: auto;
+  flex-grow: 1;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 8px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-info1 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.editar-perfil-editar-c7 {
+  top: 756px;
+  left: 742px;
+  width: 194px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.editar-perfil-editar-imagen1 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-color: transparent;
+  margin-right: 32px;
+}
+.editar-perfil-editar-text08 {
+  color: var(--dl-color-escaladegrises-onyx);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-certificados {
+  top: 961px;
+  left: 174px;
+  width: 415px;
+  height: 45px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(183, 179, 185, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: rgba(253, 253, 253, 1);
+}
+.editar-perfil-editar-text10 {
+  color: var(--dl-color-escaladegrises-silvermetallic);
+  height: auto;
+  flex-grow: 1;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 8px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-info2 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.editar-perfil-editar-c6 {
+  top: 924px;
+  left: 176px;
+  width: 198px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.editar-perfil-editar-imagen2 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-color: transparent;
+  margin-right: 32px;
+}
+.editar-perfil-editar-text12 {
+  color: var(--dl-color-escaladegrises-onyx);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-estudios {
+  top: 804px;
+  left: 171px;
+  width: 418px;
+  height: 52px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(183, 179, 185, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: rgba(253, 253, 253, 1);
+}
+.editar-perfil-editar-text14 {
+  color: var(--dl-color-escaladegrises-silvermetallic);
+  height: auto;
+  flex-grow: 1;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 8px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-info3 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.editar-perfil-editar-c5 {
+  top: 748px;
+  left: 174px;
+  width: 156px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.editar-perfil-editar-imagen3 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-color: transparent;
+  margin-right: 32px;
+}
+.editar-perfil-editar-text16 {
+  color: var(--dl-color-escaladegrises-onyx);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-ind2 {
+  top: 636px;
+  left: 123px;
+  width: 256px;
+  height: 61px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.editar-perfil-editar-number {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: var(--dl-color-primarios-midnightgreen);
+}
+.editar-perfil-editar-text18 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-text20 {
+  top: 8px;
+  left: 129px;
+  color: var(--dl-color-primarios-midnightgreen);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.editar-perfil-editar-line1 {
+  top: 592px;
+  left: 100px;
+  width: 1103px;
+  height: 1px;
+  position: absolute;
+}
+.editar-perfil-editar-idiomas {
+  top: 487px;
+  left: 803px;
+  width: 400px;
+  height: 48px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(183, 179, 185, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: rgba(253, 253, 253, 1);
+}
+.editar-perfil-editar-text22 {
+  top: 16px;
+  left: 16px;
+  color: var(--dl-color-escaladegrises-silvermetallic);
+  width: 344px;
+  height: auto;
+  position: absolute;
+  flex-grow: 1;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-plus {
+  top: 16px;
+  left: 368px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.editar-perfil-editar-c4 {
+  top: 431px;
+  left: 803px;
+  width: 152px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.editar-perfil-editar-imagen4 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-color: transparent;
+  margin-right: 32px;
+}
+.editar-perfil-editar-text24 {
+  color: var(--dl-color-escaladegrises-onyx);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-localidad {
+  top: 487px;
+  left: 337px;
+  width: 400px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(183, 179, 185, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: rgba(253, 253, 253, 1);
+}
+.editar-perfil-editar-text26 {
+  color: var(--dl-color-escaladegrises-silvermetallic);
+  height: auto;
+  flex-grow: 1;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 8px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-info4 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.editar-perfil-editar-c3 {
+  top: 431px;
+  left: 337px;
+  width: 200px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.editar-perfil-editar-imagen5 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-color: transparent;
+  margin-right: 32px;
+}
+.editar-perfil-editar-text28 {
+  color: var(--dl-color-escaladegrises-onyx);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-correo {
+  top: 340px;
+  left: 803px;
+  width: 400px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  align-items: flex-start;
+  border-color: rgba(183, 179, 185, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: rgba(253, 253, 253, 1);
+}
+.editar-perfil-editar-text30 {
+  color: var(--dl-color-escaladegrises-silvermetallic);
+  width: 344px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 8px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-info5 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.editar-perfil-editar-c2 {
+  top: 284px;
+  left: 803px;
+  width: 108px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.editar-perfil-editar-imagen6 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-color: transparent;
+  margin-right: 16px;
+}
+.editar-perfil-editar-text32 {
+  color: var(--dl-color-escaladegrises-onyx);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-nombre {
+  top: 340px;
+  left: 337px;
+  width: 400px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(183, 179, 185, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: rgba(253, 253, 253, 1);
+}
+.editar-perfil-editar-text34 {
+  color: var(--dl-color-escaladegrises-silvermetallic);
+  height: auto;
+  flex-grow: 1;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 8px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-info6 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.editar-perfil-editar-c1 {
+  top: 284px;
+  left: 337px;
+  width: 258px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.editar-perfil-editar-imagen7 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-color: transparent;
+  margin-right: 16px;
+}
+.editar-perfil-editar-text36 {
+  color: var(--dl-color-escaladegrises-onyx);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-image {
+  top: 292px;
+  left: 123px;
+  width: 152px;
+  height: 152px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.editar-perfil-editar-imagen8 {
+  top: 0px;
+  left: 0px;
+  width: 152px;
+  height: 152px;
+  position: absolute;
+  border-color: transparent;
+}
+.editar-perfil-editar-ellipse {
+  top: 13.028449058532715px;
+  left: 124.85551452636719px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.editar-perfil-editar-pencil-simple {
+  top: 19.542776107788086px;
+  left: 131.91363525390625px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.editar-perfil-editar-ind1 {
+  top: 199px;
+  left: 123px;
+  width: 268px;
+  height: 61px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.editar-perfil-editar-number1 {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: var(--dl-color-primarios-midnightgreen);
+}
+.editar-perfil-editar-text38 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.editar-perfil-editar-text40 {
+  top: 8px;
+  left: 129px;
+  color: var(--dl-color-primarios-midnightgreen);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.editar-perfil-editar-line2 {
+  top: 113px;
+  left: 100px;
+  width: 1156px;
+  height: 1px;
+  position: absolute;
+  border-color: transparent;
+}
+.editar-perfil-editar-variant-close-ring {
+  top: 24px;
+  left: 1756px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.editar-perfil-editar-text42 {
+  top: 48px;
+  left: 100px;
+  color: var(--dl-color-primarios-mediumaquamarine);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Louis George Cafe;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
